@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Pokemon Hollow";
+  src: url(fonts/Pokemon-Hollow.ttf);
+}
+@font-face {
+  font-family: "Pokemon";
+  src: url(fonts/Pokemon.ttf);
+}
+
+body {
+  font-family: "Pokemon Hollow", Sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.pokemon {
+  display: inline-block;
+  text-align: center;
+  font-family: "Pokemon", sans-serif;
+}
+
+.pokemon img {
+  display: block;
+}
